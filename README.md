@@ -46,3 +46,20 @@ guia4-sistema-votacion/
 ├── requirements.txt
 ├── schema.sql
 └── seed.sql
+
+## 🔄 Gestión de configuración y control de cambios
+
+Este proyecto utiliza Git y GitHub para controlar las versiones del código fuente y mantener trazabilidad sobre los cambios realizados.
+
+Las modificaciones se desarrollan mediante ramas independientes y se integran a la rama principal mediante Pull Requests, permitiendo revisar los cambios antes de incorporarlos al proyecto.
+
+### Flujo de cambios 
+
+Para incorporar mejoras al proyecto se utiliza el siguiente flujo:
+
+1. Crear una rama independiente a partir de `main`.
+2. Realizar y documentar los cambios.
+3. Crear un commit descriptivo.
+4. Publicar la rama en GitHub.
+5. Crear un Pull Request.
+6. Revisar los cambios antes de integrarlos a `main`.
